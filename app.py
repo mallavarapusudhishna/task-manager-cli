@@ -1,6 +1,6 @@
 #main script
 
-#add task feature
+#This program manages tasks using a CLI
 print("Your tasks: ")
 with open("tasks.txt", "r") as file:
     tasks = file.readlines()
