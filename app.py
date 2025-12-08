@@ -1,8 +1,10 @@
-#main script
+#Task Manager CLI
 
-# Task Manager CLI App
-print("Your tasks: ")
+#This program manages tasks using CLI
+
+print("Your Tasks: ")
 with open("tasks.txt", "r") as file:
     tasks = file.readlines()
-for t in tasks: 
-    print("-"+t.strip())
+for t in tasks:
+    print("- "+t.strip())
+
