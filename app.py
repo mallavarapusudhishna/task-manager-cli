@@ -1,5 +1,4 @@
 #Task Manager CLI App
-#this is just an addition.
 #Temporary change for stash practice.
 #This program manages tasks using a CLI.
 print("Your tasks: ")
