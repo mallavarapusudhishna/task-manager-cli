@@ -5,3 +5,4 @@ Simple CLI tool that stores tasks in a file.
 - src/
   - app.py
   - tasks.txt
+# Author: Sudhishna Mallavarapu. 
