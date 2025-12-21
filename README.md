@@ -7,4 +7,5 @@ Simple CLI tool that stores tasks in a files
   - app.py
   - tasks.txt
 
-Changes made here will always be visbile to everyone 
+Changes made here will always be visible to everyone.
+This is just a sample to understand Git and GitHub.
