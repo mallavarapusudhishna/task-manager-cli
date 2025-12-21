@@ -1,7 +1,9 @@
 #Task Manager CLI App
-#Temporary change for stash practice.
-#This is just a sample to print tasks
+
 #This program manages tasks using a CLI.
+
+#The changed made here are Temporary
+
 print("Your tasks: ")
 with open("tasks.txt", "r") as file:
     tasks = file.readlines()
