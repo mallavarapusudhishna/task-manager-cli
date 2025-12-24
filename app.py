@@ -1,8 +1,8 @@
 #Task Manager CLI App
 
-#This program manages tasks using a CLI.
+#This program manages tasks using a CLI
 
-# Author: Sudhishna Mallavarapu
+#This is just for practice.
 
 print("Your tasks: ")
 with open("tasks.txt", "r") as file:
