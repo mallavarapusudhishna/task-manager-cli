@@ -1,7 +1,8 @@
 #Task Manager CLI App
 
 #This program manages tasks using a CLI 
-s is an
+s is an apple
+it is a word
 print("Your tasks: ")
 with open("tasks.txt", "r") as file:
     tasks = file.readlines()
