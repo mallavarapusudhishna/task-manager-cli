@@ -1,7 +1,7 @@
 #Task Manager CLI App
 
 #This program manages tasks using a CLI 
-sudhishna mallavarapu
+sudhishna mallavarapu started changing this
 print("Your tasks: ")
 with open("tasks.txt", "r") as file:
     tasks = file.readlines()
