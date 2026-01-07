@@ -8,6 +8,6 @@ Simple CLI tool that stores tasks in a files
   - tasks.txt
 
 
-This is just a sample to understand Git and GitHub.
+This is just a sample community to understand Git and GitHub.
 
 Author : Sudhishna Mallavarapu.
