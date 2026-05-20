@@ -1,13 +1,33 @@
-# task-manager-cli
+# Task Manager CLI
 
-Simple CLI tool that stores tasks in a files
+A simple command-line task manager built with Python.
 
-## Project Structure
-- src/
-  - app.py
-  - tasks.txt
+## Features
 
+- Add tasks
+- List tasks
+- Complete tasks
+- Delete tasks
+- JSON-based storage
 
-This is just a sample community to understand Git and GitHub.
+## Usage
 
-Author : Sudhishna Mallavarapu.
+Add task:
+```bash
+python app.py add "Learn Python"
+```
+
+List tasks:
+```bash
+python app.py list
+```
+
+Complete task:
+```bash
+python app.py complete 1
+```
+
+Delete task:
+```bash
+python app.py delete 1
+```
