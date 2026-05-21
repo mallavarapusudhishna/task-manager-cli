@@ -2,32 +2,120 @@
 
 A simple command-line task manager built with Python.
 
+---
+
 ## Features
 
 - Add tasks
 - List tasks
-- Complete tasks
+- Mark tasks as completed
 - Delete tasks
-- JSON-based storage
+- JSON-based task storage
+
+---
+
+## Technologies Used
+
+- Python
+- argparse
+- JSON
+
+---
+
+## Project Structure
+
+```plaintext
+task-manager-cli/
+│
+├── app.py
+├── tasks.json
+├── screenshot.png
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+---
 
 ## Usage
 
-Add task:
+### Add a Task
+
 ```bash
-python app.py add "Learn Python"
+python app.py add "Study OS"
 ```
 
-List tasks:
+Example Output:
+
+```plaintext
+Task added successfully!
+```
+
+---
+
+### List Tasks
+
 ```bash
 python app.py list
 ```
 
-Complete task:
+Example Output:
+
+```plaintext
+Your Tasks:
+
+1. [ ] Study OS
+2. [✓] Learn Python
+```
+
+- `[ ]` = Incomplete task
+- `[✓]` = Completed task
+
+---
+
+### Complete a Task
+
 ```bash
 python app.py complete 1
 ```
 
-Delete task:
+Example Output:
+
+```plaintext
+Task marked as completed!
+```
+
+---
+
+### Delete a Task
+
 ```bash
 python app.py delete 1
 ```
+
+Example Output:
+
+```plaintext
+Deleted task: Study OS
+```
+
+---
+
+## Screenshot
+
+![Task Manager CLI Screenshot](screenshot.png)
+
+---
+
+## Future Improvements
+
+- Add task timestamps
+- Add colored terminal output
+- Add unit tests using pytest
+- Improve project structure
+
+---
+
+## Author
+
+Sudhishna Mallavarapu
